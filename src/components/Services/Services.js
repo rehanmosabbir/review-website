@@ -15,7 +15,7 @@ const Services = () => {
 
   return (
     <>
-      <Container>
+      <Container className="mt-5">
         <Row xs={1} md={2} className="g-4">
           {services?.map((service) => (
             <SingleService service={service} key={service.id}></SingleService>
