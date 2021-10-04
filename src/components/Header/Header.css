@@ -3,3 +3,10 @@
   height: 92vh;
   background-size: cover;
 }
+
+.main-nav a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 20px;
+  font-weight: bold;
+}

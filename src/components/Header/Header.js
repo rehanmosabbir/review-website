@@ -5,61 +5,56 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <div>
+    <div className="main-nav">
       <Navbar bg="danger" variant="dark" className="py-2">
         <Container>
           <Navbar.Brand href="/" className="display-6">
             REHAN'S EDUCARE
           </Navbar.Brand>
           <Nav className="ms-auto">
-            <Nav.Link>
-              <NavLink
-                activeStyle={{
-                  fontWeight: "normal",
-                  color: "white",
-                  textDecoration: "none",
-                }}
-                to="/home"
-              >
-                Home
-              </NavLink>
-            </Nav.Link>
-            <Nav.Link>
-              <NavLink
-                activeStyle={{
-                  fontWeight: "normal",
-                  color: "white",
-                  textDecoration: "none",
-                }}
-                to="/services"
-              >
-                Services
-              </NavLink>
-            </Nav.Link>
-            <Nav.Link>
-              <NavLink
-                activeStyle={{
-                  fontWeight: "normal",
-                  color: "white",
-                  textDecoration: "none",
-                }}
-                to="/about"
-              >
-                About
-              </NavLink>
-            </Nav.Link>
-            <Nav.Link>
-              <NavLink
-                activeStyle={{
-                  fontWeight: "normal",
-                  color: "white",
-                  textDecoration: "none",
-                }}
-                to="/contact"
-              >
-                Contact us
-              </NavLink>
-            </Nav.Link>
+            <NavLink
+              activeStyle={{
+                fontWeight: "bold",
+                color: "#222",
+                textDecoration: "none",
+              }}
+              to="/home"
+            >
+              Home
+            </NavLink>
+
+            <NavLink
+              activeStyle={{
+                fontWeight: "bold",
+                color: "#222",
+                textDecoration: "none",
+              }}
+              to="/services"
+            >
+              Services
+            </NavLink>
+
+            <NavLink
+              activeStyle={{
+                fontWeight: "bold",
+                color: "#222",
+                textDecoration: "none",
+              }}
+              to="/about"
+            >
+              About
+            </NavLink>
+
+            <NavLink
+              activeStyle={{
+                fontWeight: "bold",
+                color: "#222",
+                textDecoration: "none",
+              }}
+              to="/contact"
+            >
+              Contact us
+            </NavLink>
           </Nav>
         </Container>
       </Navbar>

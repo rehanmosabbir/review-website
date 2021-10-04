@@ -11,7 +11,9 @@ const About = () => {
       <div className="container">
         <div className="row py-5">
           <div className="col-md-6 py-5">
-            <h3 className="display-4 mb-4">Who we are?</h3>
+            <h3 className="display-4 mb-4 w-75 pb-2 border-bottom border-2 border-danger">
+              Who we are?
+            </h3>
             <p className="pe-5">
               Rehan's Educare was founded in 2013 by three young Engineers while
               studying MBA in IBA DU. Rehan's Educare is the pioneer of

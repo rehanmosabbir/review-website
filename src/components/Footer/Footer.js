@@ -48,16 +48,16 @@ const Footer = () => {
             <FontAwesomeIcon className="me-2 text-danger" icon={faMailBulk} />
             Keep in touch
           </h4>
-          <div class="input-group mb-3">
+          <div className="input-group mb-3">
             <input
               type="text"
-              class="form-control"
+              className="form-control"
               placeholder="Subscribe"
               aria-label="Recipient's username"
               aria-describedby="button-addon2"
             />
             <button
-              class="btn btn-danger btn-sm"
+              className="btn btn-danger btn-sm"
               type="button"
               id="button-addon2"
             >
