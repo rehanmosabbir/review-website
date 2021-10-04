@@ -8,13 +8,15 @@ const Header = () => {
     <div>
       <Navbar bg="danger" variant="dark" className="py-2">
         <Container>
-          <Navbar.Brand href="/">REHAN'S EDUCARE</Navbar.Brand>
-          <Nav className="me-auto">
+          <Navbar.Brand href="/" className="display-6">
+            REHAN'S EDUCARE
+          </Navbar.Brand>
+          <Nav className="ms-auto">
             <Nav.Link>
               <NavLink
                 activeStyle={{
-                  fontWeight: "bold",
-                  color: "black",
+                  fontWeight: "normal",
+                  color: "white",
                   textDecoration: "none",
                 }}
                 to="/home"
@@ -25,8 +27,8 @@ const Header = () => {
             <Nav.Link>
               <NavLink
                 activeStyle={{
-                  fontWeight: "bold",
-                  color: "black",
+                  fontWeight: "normal",
+                  color: "white",
                   textDecoration: "none",
                 }}
                 to="/services"
@@ -37,8 +39,8 @@ const Header = () => {
             <Nav.Link>
               <NavLink
                 activeStyle={{
-                  fontWeight: "bold",
-                  color: "black",
+                  fontWeight: "normal",
+                  color: "white",
                   textDecoration: "none",
                 }}
                 to="/about"
@@ -49,8 +51,8 @@ const Header = () => {
             <Nav.Link>
               <NavLink
                 activeStyle={{
-                  fontWeight: "bold",
-                  color: "black",
+                  fontWeight: "normal",
+                  color: "white",
                   textDecoration: "none",
                 }}
                 to="/contact"
