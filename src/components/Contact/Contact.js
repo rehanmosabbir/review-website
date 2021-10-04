@@ -15,6 +15,7 @@ const Contact = () => {
         <div className="row py-5">
           <div className="col-md-5">
             <h5 className="mb-4">Contact Details</h5>
+            <hr className="w-50" />
             <div className="pe-5">
               <p>
                 <FontAwesomeIcon
@@ -49,8 +50,9 @@ const Contact = () => {
           </div>
           <div className="col-md-7">
             <h2 className="mb-3">Contact Us</h2>
+
             <Form>
-              <Row className="mb-3">
+              <Row className="my-3">
                 <Form.Group as={Col} controlId="formGridEmail">
                   <Form.Control type="text" placeholder="Name" />
                 </Form.Group>
