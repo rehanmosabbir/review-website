@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBookReader } from "@fortawesome/free-solid-svg-icons";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import "./Header.css";
@@ -9,6 +11,7 @@ const Header = () => {
       <Navbar bg="danger" variant="dark" className="py-2">
         <Container>
           <NavLink to="/" className="fs-5">
+            <FontAwesomeIcon className="me-2 text-white" icon={faBookReader} />
             REHAN'S EDUCARE
           </NavLink>
           <Nav className="ms-auto">
