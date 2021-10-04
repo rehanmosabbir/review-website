@@ -1,6 +1,6 @@
 # Rehan's Educare
 
-https://singing-superstars-pro.netlify.app/
+https://rehans-educare.netlify.app/
 
 ## Rehan's Educare Features:
 
