@@ -8,9 +8,9 @@ const Header = () => {
     <div className="main-nav">
       <Navbar bg="danger" variant="dark" className="py-2">
         <Container>
-          <Navbar.Brand href="/" className="display-6">
+          <NavLink to="/" className="fs-5">
             REHAN'S EDUCARE
-          </Navbar.Brand>
+          </NavLink>
           <Nav className="ms-auto">
             <NavLink
               activeStyle={{
