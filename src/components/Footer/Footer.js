@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faMapMarkerAlt,
-  faTag,
+  faPhoneVolume,
   faClock,
   faMailBulk,
 } from "@fortawesome/free-solid-svg-icons";
@@ -12,26 +12,31 @@ const Footer = () => {
     <div className=" bg-secondary text-white pt-5 mt-5">
       <div className="d-flex justify-content-around border-bottom pb-5">
         <div>
-          <h4>
+          <h4 className="mb-3">
             <FontAwesomeIcon
               className="me-2 text-danger"
               icon={faMapMarkerAlt}
             />
             Address
           </h4>
-          <p>97845 Baker st. </p>
-          <p>567 Los Angeles - US</p>
+          <p className="mb-0">152/2/A-2, Green Road Rowshan Tower,</p>
+          <p className="mb-0">4th Floor, Panthapath Signal,</p>
+          <p>Dhaka-1205</p>
         </div>
         <div>
-          <h4>
-            <FontAwesomeIcon className="me-2 text-danger" icon={faTag} />
-            Reservations
+          <h4 className="mb-3">
+            <FontAwesomeIcon
+              className="me-2 text-danger"
+              icon={faPhoneVolume}
+            />
+            Contact Us
           </h4>
-          <p>+94 423-23-221</p>
-          <p>reservations@Foores.com</p>
+          <p className="mb-0">01972 277 866</p>
+          <p>016 30 31 30 31</p>
+          <p>info@rehanedubd.com</p>
         </div>
         <div>
-          <h4>
+          <h4 className="mb-3">
             <FontAwesomeIcon className="me-2 text-danger" icon={faClock} />
             Opening Hours
           </h4>
@@ -39,7 +44,7 @@ const Footer = () => {
           <p>Sunday: Closed</p>
         </div>
         <div>
-          <h4>
+          <h4 className="mb-3">
             <FontAwesomeIcon className="me-2 text-danger" icon={faMailBulk} />
             Keep in touch
           </h4>
@@ -47,12 +52,12 @@ const Footer = () => {
             <input
               type="text"
               class="form-control"
-              placeholder="Recipient's username"
+              placeholder="Subscribe"
               aria-label="Recipient's username"
               aria-describedby="button-addon2"
             />
             <button
-              class="btn btn-warning btn-sm"
+              class="btn btn-danger btn-sm"
               type="button"
               id="button-addon2"
             >
@@ -62,7 +67,7 @@ const Footer = () => {
         </div>
       </div>
       <p className="text-center text-white py-4 m-0">
-        © 2021 Foores Restaurant - All rights reserved
+        © 2021 Rehan's Educare - All rights reserved
       </p>
     </div>
   );

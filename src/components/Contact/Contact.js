@@ -1,23 +1,54 @@
 import React from "react";
 import { Col, Form, Row, Button } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faMapMarked,
+  faPhoneVolume,
+  faMobileAlt,
+  faEnvelope,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Contact = () => {
   return (
     <div className="py-5">
       <div className="container">
         <div className="row py-5">
-          <div className="col-md-4">
-            <h5>Contact Details</h5>
-            <p>
-              152/2/A-2, Green Road Rowshan Tower, 4th Floor, Panthapath Signal,
-              Dhaka-1205
-            </p>
-            <p>01972 277 866</p>
-            <p>016 30 31 30 31</p>
-            <p>info@capstonebd.com</p>
+          <div className="col-md-5">
+            <h5 className="mb-4">Contact Details</h5>
+            <div className="pe-5">
+              <p>
+                <FontAwesomeIcon
+                  className="me-3 text-danger fs-4"
+                  icon={faMapMarked}
+                />
+                152/2/A-2, Green Road Rowshan Tower, <br /> 4th Floor,
+                Panthapath Signal, Dhaka-1205
+              </p>
+              <p>
+                <FontAwesomeIcon
+                  className="me-3 text-danger fs-4"
+                  icon={faPhoneVolume}
+                />
+                01972 277 866
+              </p>
+              <p>
+                <FontAwesomeIcon
+                  className="me-3 text-danger fs-4"
+                  icon={faMobileAlt}
+                />
+                016 30 31 30 31
+              </p>
+              <p>
+                <FontAwesomeIcon
+                  className="me-3 text-danger fs-4"
+                  icon={faEnvelope}
+                />
+                info@rehanedubd.com
+              </p>
+            </div>
           </div>
-          <div className="col-md-8">
-            <h2>Contact Us</h2>
+          <div className="col-md-7">
+            <h2 className="mb-3">Contact Us</h2>
             <Form>
               <Row className="mb-3">
                 <Form.Group as={Col} controlId="formGridEmail">
