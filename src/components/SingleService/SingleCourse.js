@@ -1,10 +1,10 @@
 import React from "react";
 import { Card, Col, Button } from "react-bootstrap";
-import "./SingleService.css";
+import "./SingleCourse.css";
 
-const SingleService = (props) => {
-  console.log(props.service);
-  const { image, course, cost } = props.service;
+const SingleCourse = (props) => {
+  console.log(props.course);
+  const { image, course, cost } = props.course;
   return (
     <Col xs={6} md={4} className="mb-4">
       <Card className="card-height" style={{ width: "16rem" }}>
@@ -27,4 +27,4 @@ const SingleService = (props) => {
   );
 };
 
-export default SingleService;
+export default SingleCourse;

@@ -32,9 +32,9 @@ const Header = () => {
                 color: "#222",
                 textDecoration: "none",
               }}
-              to="/services"
+              to="/courses"
             >
-              Services
+              Courses
             </NavLink>
 
             <NavLink
